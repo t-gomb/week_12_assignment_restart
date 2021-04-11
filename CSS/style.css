@@ -118,17 +118,20 @@ button {
     background-color: #c4a7e7;
     box-shadow: 1px;
     transition-duration: 0.2s;
-    border: #26233a;
+    border: 1px, #26233a;
+    border-radius: 12px;
+
     }
 
-    button:hover {
+button:hover {
     background-color: #e0def4;
     }
 
 .button:active {
     background-color: #c4a7e7;
-    transform: translateY(4px);
+    transform: translateY(2px);
     }
+
 @media screen and (min-width: 1px) and (max-width: 599px) {
     div { background-color: #e0def4;
     font-size: 15px;}
