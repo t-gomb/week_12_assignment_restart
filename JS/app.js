@@ -22,9 +22,10 @@
 });
 */
 
-function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
+function darktheme() {
+    let element = document.body;
+    element.classList.toggle("main_dark-mode");
+    console.log('imgay');
  }
 
 

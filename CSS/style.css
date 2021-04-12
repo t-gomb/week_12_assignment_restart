@@ -3,16 +3,6 @@
     padding:0px;
     font-family: 'PT Sans', sans-serif;
 }
-.body {
-    background-color: #e0def4;
-    padding: 0px 0px;
-}
-
-.dark-mode {
-    background-color: black;
-}
-
-
 
 .container {
     display: grid;
@@ -27,9 +17,17 @@
     height: 100vh;
 }
 
+
 .header{
     grid-area: h;
     background-color: #59546d;
+    PADDING: 10px 10px;
+    text-align: left;
+}
+
+.header_dark-mode{
+    grid-area: h;
+    background-color: black;
     PADDING: 10px 10px;
     text-align: left;
 }
@@ -43,6 +41,7 @@
     font-size: 23px;
     
 }
+
 
 ul a {
     display: block;
@@ -79,6 +78,12 @@ ul a:hover {
     padding: 0px 0px;
 }
 
+.main_dark-mode {
+    grid-area: m;
+    background-color: black;
+}
+
+
 .newnote {
     margin-top: 25px;
     margin-left: 25px;
@@ -91,6 +96,8 @@ footer {
     background-color: #59546d;
     padding: 20px 15px;
 }
+
+
 
 footer p {
     color: #e0def4;
