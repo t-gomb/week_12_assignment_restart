@@ -25,5 +25,16 @@
 function darktheme() {
     let element = document.body;
     element.classList.toggle("main_dark-mode");
+    console.log('working')
  }
+
+ function togglenote() {
+    let toggle = document.getElementById("notebox");
+    if (toggle.style.visibility === "hidden") {
+      toggle.style.visibility = "visible";
+    } else {
+      toggle.style.visibility = "hidden";
+    }
+    console.log('alsoworking')
+  }
 
