@@ -17,17 +17,9 @@
     height: 100vh;
 }
 
-
 .header{
     grid-area: h;
     background-color: #59546d;
-    PADDING: 10px 10px;
-    text-align: left;
-}
-
-.header_dark-mode{
-    grid-area: h;
-    background-color: black;
     PADDING: 10px 10px;
     text-align: left;
 }
@@ -41,7 +33,6 @@
     font-size: 23px;
     
 }
-
 
 ul a {
     display: block;
@@ -78,7 +69,7 @@ ul a:hover {
     padding: 0px 0px;
 }
 
-.main_dark-mode {
+.dark-mode {
     grid-area: m;
     background-color: black;
 }
@@ -103,12 +94,12 @@ footer p {
     color: #e0def4;
 }
 
-.notebox {
-    grid-area: m;
-    margin-top: -70px;
-    margin-left: 20px;
-    padding: 55px 90px;
-    background-color: #e0def4;
+.notes {
+    visibility: hidden;
+    margin-top: -40px;
+    margin-left: 140px;
+    padding: 55px 120px;
+    background-color: #fffaf3;
 }
 
 .side > ul a {

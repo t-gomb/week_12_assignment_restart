@@ -25,7 +25,5 @@
 function darktheme() {
     let element = document.body;
     element.classList.toggle("main_dark-mode");
-    console.log('imgay');
  }
-
 
