@@ -3,6 +3,16 @@
     padding:0px;
     font-family: 'PT Sans', sans-serif;
 }
+.body {
+    background-color: #e0def4;
+    padding: 0px 0px;
+}
+
+.dark-mode {
+    background-color: black;
+}
+
+
 
 .container {
     display: grid;
@@ -73,6 +83,7 @@ ul a:hover {
     margin-top: 25px;
     margin-left: 25px;
 }
+
 
 footer {
     grid-area: f;
